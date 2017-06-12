@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "QR Host",
+  "short_name": "qrhost",
+  "description": "This extension allows you to display QR Code of the current tab",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "img/icon16.png",
+    "default_title": "Press the button to display QR Code of current tab or Alt + Q",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+Q"
+      }
+    }
+  }
+}

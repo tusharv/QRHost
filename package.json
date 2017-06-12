@@ -1,0 +1,7 @@
+{
+  "name": "qrhost",
+  "version": "1.0.0",
+  "description": "A chrome extension that allows to display QR code of current tab",
+  "author": "Tushar Vaghela",
+  "license": "ISC"
+}

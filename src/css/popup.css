@@ -1,0 +1,16 @@
+body {
+	font-family: Arial, sans-serif;
+	min-width: 170px;
+	text-align: center;
+}
+
+#qr {
+	width:150px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+#qr img {
+	height: 100%;
+	width: 100%;
+}
