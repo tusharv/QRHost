@@ -19,9 +19,27 @@ function getHostname(url) {
 
 function setHostname(hostname) {
 	var qrPath = 'https://api.qrserver.com/v1/create-qr-code/?data='+hostname+'&size=150x150';
+    var qrimage = document.getElementById('qrimage');
+    var qrref =  document.getElementById('qrref');
 
-	document.getElementById('qrimage').src = qrPath;
-	document.getElementById('qrref').href = qrPath;
+	qrimage.src = qrPath;
+    qrref.innerHTML = 'Please Wait';
+    
+    qrimage.addEventListener('error',function(e){
+		e.target.src = 'img/error.png';
+        qrref.setAttribute('href','#');
+        qrref.removeAttribute('download');
+        qrref.innerHTML = 'Try Again!';
+        setTimeout(closePopup,2000);
+	});
+    
+    qrimage.addEventListener('load',function(e){
+        if(String(e.target.src).indexOf('error.png') === -1){
+            qrref.setAttribute('href',qrPath);
+            qrref.setAttribute('download','');
+            qrref.innerHTML = 'Click to Save';
+        }
+	});
 }
 
 function closePopup() {
