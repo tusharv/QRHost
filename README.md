@@ -17,7 +17,7 @@ QR Host is available on [Chrome Web Store](https://chrome.google.com/webstore/de
 
 ### Keyboard Shortcut
 
-```Alt + Q``` can be used to display QR Code
+```Ctrl+Shift+1``` can be used to display QR Code
 
 Open ```chrome://extensions```, Click ```Keyboard shortcuts``` on bottom of the page and set Keyboard shortcut manually.
 
