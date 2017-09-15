@@ -1,12 +1,12 @@
 body {
 	font-family: Arial, sans-serif;
-	min-width: 170px;
+	min-width: 210px;
 	text-align: center;
 }
 
 #qr {
-	width:150px;
-	height: 150px;
+	width:200px;
+	height: 200px;
 	margin: 0 auto;
 }
 

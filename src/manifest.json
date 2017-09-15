@@ -3,7 +3,7 @@
   "name": "QR Host",
   "short_name": "qrhost",
   "description": "This extension allows you to display QR Code of the current tab",
-  "version": "1.3",
+  "version": "1.5",
   "browser_action": {
     "default_icon": "img/icon128.png",
     "default_title": "Press the button to display QR Code of current tab or Ctrl+Shift+1",

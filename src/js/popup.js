@@ -18,7 +18,7 @@ function getHostname(url) {
 }
 
 function setHostname(hostname) {
-	var qrPath = 'https://api.qrserver.com/v1/create-qr-code/?data='+hostname+'&size=150x150';
+	var qrPath = 'https://api.qrserver.com/v1/create-qr-code/?data='+encodeURIComponent(hostname)+'&size=200x200';
     var qrimage = document.getElementById('qrimage');
     var qrref =  document.getElementById('qrref');
 
