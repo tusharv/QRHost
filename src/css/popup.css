@@ -4,6 +4,36 @@ body {
 	text-align: center;
 }
 
+h1 {
+	margin: 5px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 5px 0px;
+	background-color: #dfe1e5;
+}
+
+footer a {
+	color: #0f0f0f;
+	text-decoration: none;
+	outline: none;
+}
+
+#site {
+	margin: 10px 10px;
+	padding: 5px 3px;
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	border: solid 1px #dfe1e5;
+	border-radius: 10px;
+	outline: none;
+}
+
 #qr {
 	width:200px;
 	height: 200px;
@@ -13,4 +43,8 @@ body {
 #qr img {
 	height: 100%;
 	width: 100%;
+}
+
+.last {
+	padding-bottom: 25px;
 }

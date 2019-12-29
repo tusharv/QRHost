@@ -23,13 +23,15 @@ function setHostname(hostname) {
     var qrref =  document.getElementById('qrref');
 
 	qrimage.src = qrPath;
-    qrref.innerHTML = 'Please Wait';
+	qrref.innerText = 'Please Wait';
+	
+	site.value = hostname;
     
     qrimage.addEventListener('error',function(e){
 		e.target.src = 'img/error.png';
         qrref.setAttribute('href','#');
         qrref.removeAttribute('download');
-        qrref.innerHTML = 'Try Again!';
+        qrref.innerText = 'Try Again!';
         setTimeout(closePopup,2000);
 	});
     
@@ -38,7 +40,7 @@ function setHostname(hostname) {
 			qrref.setAttribute('href',qrPath);
 			qrref.setAttribute('target','_blank');
             qrref.setAttribute('download','');
-            qrref.innerHTML = 'Click to Save';
+            qrref.innerText = 'Click to Save';
         }
 	});
 }
