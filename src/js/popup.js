@@ -38,7 +38,7 @@ function setHostname(hostname) {
 			qrref.setAttribute('href',qrPath);
 			qrref.setAttribute('target','_blank');
             qrref.setAttribute('download','');
-            qrref.innerHTML = 'Click For Save';
+            qrref.innerHTML = 'Click to Save';
         }
 	});
 }
