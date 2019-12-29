@@ -1,6 +1,6 @@
-# QR Host
+# QR Code Host
 
-QR Host allows you to get QR Code of the current tab.
+QR Code Host allows you to get QR Code of the current tab.
 
 [![Install](/screenshots/store_badge.png)](https://chrome.google.com/webstore/detail/qr-host/lchkgooogmgikngchgobcclhiijejjeg)
 
@@ -13,7 +13,7 @@ To avoid that, here is Chrome extension to get QR Code of the current tab.
 
 ## Installation
 
-QR Host is available on [Chrome Web Store](https://chrome.google.com/webstore/detail/qr-host/lchkgooogmgikngchgobcclhiijejjeg). No additional permissions are required to install.
+QR Code Host is available on [Chrome Web Store](https://chrome.google.com/webstore/detail/qr-host/lchkgooogmgikngchgobcclhiijejjeg). No additional permissions are required to install.
 
 ### Keyboard Shortcut
 
@@ -45,5 +45,5 @@ Feel free to submit issues and feature requests.
 
 ### License
 
-Copyright (c) 2017 Tushar Vaghela
+Copyright (c) 2020 Tushar Vaghela
 Licensed under the [MIT license](http://opensource.org/licenses/MIT).

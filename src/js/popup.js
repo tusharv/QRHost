@@ -35,9 +35,10 @@ function setHostname(hostname) {
     
     qrimage.addEventListener('load',function(e){
         if(String(e.target.src).indexOf('error.png') === -1){
-            qrref.setAttribute('href',qrPath);
+			qrref.setAttribute('href',qrPath);
+			qrref.setAttribute('target','_blank');
             qrref.setAttribute('download','');
-            qrref.innerHTML = 'Click to Save';
+            qrref.innerHTML = 'Click For Save';
         }
 	});
 }
